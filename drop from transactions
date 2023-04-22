@@ -1,0 +1,5 @@
+# drop from transactions
+
+transactions_1 = pd.read_csv('transactions_1.csv')
+
+df_transactions = df_transactions_1.drop(['DISCOUNT','VALUE','QUANITY','TYPE','SOURCE','PAYMENT_METHOD'],axis=1)
