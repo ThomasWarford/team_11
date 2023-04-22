@@ -1,0 +1,7 @@
+
+
+kmeans = KMeans(3)
+kmeans.fit( final_file  )
+
+identified_clusters = kmeans.fit_predict( final_file  )
+identified_clusters
