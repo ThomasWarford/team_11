@@ -1,0 +1,5 @@
+import pandas as pd
+
+pro = pd.read_csv('PRODUCT_202304211040.csv')
+
+pro_new = pro.drop(['NAME','DESCRIPTION', 'LAST_AVAILABLE_DATE', 'COLOUR', 'LAST_AVAILABLE_DATE', 'PRICE', 'CATEGORY', 'SUB_CATEGORY', 'COLOUR'], axis=1)
